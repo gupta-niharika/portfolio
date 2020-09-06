@@ -1,0 +1,75 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Niharika Gupta</title>
+    <link href="{% static '/css/main.css' %}" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+          integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+</head>
+<body>
+    <br/>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="card card-body text-white bg-info">
+                    <img class="dp" src="{% static 'images/profilepic.jpg' %}">
+                    <hr>
+                    <h4 class="card-title">Hi, I'm Nikki! </h4>
+                    <p>Bangalorean<br/> </p>
+                </div>
+            </div>
+            <div class="col-md-9">
+                <div class="card card-body bg-success text-white">
+                    <h4 class="card-title">Me in 2020</h4> <hr>
+                    <p>The biggest lesson I've learnt in 2020 is to finish what I start learning, if I'm intending to do it up seriously. It doesn't matter if you
+                        learn multiple things at the same time. Although, this should be limited to related niches. Else, things get messy and you'll end up nowhere.
+                    </p>
+                </div> <hr>
+                <div class="card card-body bg-danger text-white">
+                    <h4 class="card-title">Been a back-end python developer</h4> <hr>
+                    <p>So far I've worked with Flask, did the back-end for an android app. And now I'm learning Django. I am not that very well versed with front-end development and know bare minimum bootstrap, which I learnt creating this
+                        portfolio page. I also write content for STC-VIT and occasionally design.
+                    </p>
+                    <p>Connect with me here: <img class="social" src="{% static 'images/snowball.jpg' %}">
+                        <img class="social" src="{% static 'images/snowball.jpg' %}"> <img class="social" src="{% static 'images/snowball.jpg' %}">
+                    </p>
+                </div> <br/>
+            </div>
+        </div>
+        <br/>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card card-body bg-warning">
+                    <h4 class="card-title">What I normally watch</h4> <hr>
+                    <p>Stand-ups of Indian artists. My fav webseries is Suits. Also, FRIENDS sucks. Just putting it out there.</p>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card card-body bg-warning">
+                    <h4 class="card-title">What I jam to</h4> <hr>
+                    <p>Big fan of punjabi music. Pav Dharia, Nimrat Khaira just top the list. And I listen to English music too, lol</p>
+                </div>
+            </div>
+        </div>
+        <br/>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card card-body bg-danger text-white">
+                    <h4 class="card-title">This is description 1</h4> <hr>
+                    <p>This is some random content for the first card</p>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card card-body bg-danger text-white">
+                    <h4 class="card-title">This is description 2</h4> <hr>
+                    <p>This is some random content for the second card</p>
+                </div>
+            </div>
+        </div>
+        <br/>
+    </div>
+</body>
+</html>
